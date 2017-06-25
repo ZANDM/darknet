@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>JPEGImages</folder>
+  <filename>000020.jpg</filename>
+  <path>/home/zandm/darknet/scripts/VOCdevkit/VOC2007/JPEGImages/000020.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>347</width>
+    <height>240</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>knife</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <Difficult>0</Difficult>
+    <bndbox>
+      <xmin>137</xmin>
+      <ymin>9</ymin>
+      <xmax>300</xmax>
+      <ymax>114</ymax>
+    </bndbox>
+  </object>
+</annotation>
