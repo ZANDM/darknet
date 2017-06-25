@@ -1,8 +1,6 @@
-![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
-
-#Darknet#
-Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
-
-For more information see the [Darknet project website](http://pjreddie.com/darknet).
-
-For questions or issues please use the [Google Group](https://groups.google.com/forum/#!forum/darknet).
+训练了人持匕首动作的识别。
+训练环境为ubuntu16.04
+下载后，darknet文件夹下，终端执行命令
+./darknet detector test cfg/voc.data cfg/tiny-yolo-voc.cfg backup/tiny-yolo-voc_final.weights  图片路径
+或识别视频
+./darknet detector demo cfg/voc.data cfg/tiny-yolo-voc.cfg backup/tiny-yolo-voc_final.weights  视频路径
