@@ -11,5 +11,5 @@
 特别的。需要修改cfg/voc.data 文件中的路径，改为自己本机的路径。
 如，
 train  = /home/zandm/darknet/scripts/2007_train.txt
-将"zandm"指你的用户名。你需要将"darknet"前的路径改为适应你本机。
+其中"zandm"指你的用户名。你需要将"darknet"前的路径改为适应你本机。
 
